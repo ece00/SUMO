@@ -1,0 +1,38 @@
+		*<trip id="vehicle_1" depart="0.00" from="E0" to="E6" via="-E2"/> 
+                *<trip id="vehicle_10" depart="0.00" from="E0" to="E4" via="-E2"/>
+               * <trip id="vehicle_12" depart="0.00" from="E0" to="E5" via="-E2"/>
+                *<trip id="vehicle_9" depart="0.00" from="E0" to="-E1"/>
+                <trip id="vehicle_9" depart="0.00" from="E0" to="-E3"/>"""
+                
+                *<trip id="vehicle_13" depart="0.00" from="E1" to="-E0"/>
+                *<trip id="vehicle_14" depart="0.00" from="E1" to="-E3"/>
+                *<trip id="vehicle_15" depart="0.00" from="E1" to="E6" via="-E2"/>
+                *<trip id="vehicle_16" depart="0.00" from="E1" to="E5" via="-E2"/>
+                <trip id="vehicle_17" depart="0.00" from="E1" to="E4" via="-E2"/>
+                
+                *<trip id="vehicle_21" depart="0.00" from="E3" to="-E0"/>
+                *<trip id="vehicle_5" depart="0.00" from="E3" to="-E1"/>
+                *<trip id="vehicle_6" depart="0.00" from="E3" to="E6" via="-E2"/>
+                *<trip id="vehicle_7" depart="0.00" from="E3" to="E5" via="-E2"/>
+                *<trip id="vehicle_8" depart="0.00" from="E3" to="E4" via="-E2"/>
+                
+                *<trip id="vehicle_22" depart="0.00" from="-E6" to="E5"/>
+                *<trip id="vehicle_23" depart="0.00" from="-E6" to="E4"/>
+                *<trip id="vehicle_24" depart="0.00" from="-E6" to="-E3" via="E2"/>
+                *<trip id="vehicle_25" depart="0.00" from="-E6" to="-E0" via="E2"/>
+                <trip id="vehicle_26" depart="0.00" from="-E6" to="-E1" via="E2"/>
+                
+                *<trip id="vehicle_29" depart="0.00" from="-E5" to="E6"/>
+                *<trip id="vehicle_30" depart="0.00" from="-E5" to="-E1" via="E2"/>
+                *<trip id="vehicle_31" depart="0.00" from="-E5" to="E4"/>
+                *<trip id="vehicle_32" depart="0.00" from="-E5" to="-E3" via="E2"/>
+                *<trip id="vehicle_33" depart="0.00" from="-E5" to="-E0" via="E2"/>
+                
+                *<trip id="vehicle_34" depart="0.00" from="-E4" to="E5"/>
+                *<trip id="vehicle_35" depart="0.00" from="-E4" to="E6"/>
+                *<trip id="vehicle_37" depart="0.00" from="-E4" to="-E3" via="E2"/>
+                *<trip id="vehicle_38" depart="0.00" from="-E4" to="-E1" via="E2"/>
+                *<trip id="vehicle_39" depart="0.00" from="-E4" to="-E0" via="E2"/>
+                
+                
+                

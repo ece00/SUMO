@@ -1,0 +1,260 @@
+<routes>
+
+<route edges="E3 -E0" color="yellow" id="route_0"/>
+
+<route edges="E3 -E1" color="yellow" id="route_1"/>
+
+<route edges="E1 -E0" color="yellow" id="route_10"/>
+
+<route edges="E1 -E3" color="yellow" id="route_11"/>
+
+<route edges="E1 -E2 E6" color="yellow" id="route_12"/>
+
+<route edges="E1 -E2 E5" color="yellow" id="route_13"/>
+
+<route edges="E1 -E2 E4" color="yellow" id="route_14"/>
+
+<route edges="-E6 E5" color="yellow" id="route_15"/>
+
+<route edges="-E6 E4" color="yellow" id="route_16"/>
+
+<route edges="-E6 E2 -E1" color="yellow" id="route_17"/>
+
+<route edges="-E6 E2 -E0" color="yellow" id="route_18"/>
+
+<route edges="-E6 E2 -E3" color="yellow" id="route_19"/>
+
+<route edges="E3 -E2 E6" color="yellow" id="route_2"/>
+
+<route edges="-E5 E6" color="yellow" id="route_20"/>
+
+<route edges="-E5 E2 -E3" color="yellow" id="route_21"/>
+
+<route edges="-E5 E2 -E0" color="yellow" id="route_22"/>
+
+<route edges="-E5 E2 -E1" color="yellow" id="route_23"/>
+
+<route edges="-E4 E5" color="yellow" id="route_24"/>
+
+<route edges="-E4 E6" color="yellow" id="route_25"/>
+
+<route edges="-E4 E2 -E3" color="yellow" id="route_26"/>
+
+<route edges="-E4 E2 -E0" color="yellow" id="route_27"/>
+
+<route edges="-E4 E2 -E1" color="yellow" id="route_28"/>
+
+<route edges="E3 -E2 E5" color="yellow" id="route_3"/>
+
+<route edges="E3 -E2 E4" color="yellow" id="route_4"/>
+
+<route edges="E0 -E3" color="yellow" id="route_5"/>
+
+<route edges="E0 -E1" color="yellow" id="route_6"/>
+
+<route edges="E0 -E2 E6" color="yellow" id="route_7"/>
+
+<route edges="E0 -E2 E5" color="yellow" id="route_8"/>
+
+<route edges="E0 -E2 E4" color="yellow" id="route_9"/>
+    <trip id="vehicle_0" depart="6" from="E0" to="-E1" />
+    <trip id="vehicle_1" depart="14" from="-E4" to="E5" />
+    <trip id="vehicle_2" depart="24" from="E3" to="-E1" />
+    <trip id="vehicle_3" depart="39" from="-E6" to="-E1" via="E2"/>
+    <trip id="vehicle_4" depart="42" from="E1" to="-E0" />
+    <trip id="vehicle_5" depart="51" from="-E5" to="E4" />
+    <trip id="vehicle_6" depart="69" from="-E4" to="-E0" via="E2"/>
+    <trip id="vehicle_7" depart="71" from="-E4" to="-E1" via="E2"/>
+    <trip id="vehicle_8" depart="87" from="-E4" to="-E3" via="E2"/>
+    <trip id="vehicle_9" depart="96" from="-E5" to="E6" />
+    <trip id="vehicle_10" depart="110" from="-E6" to="-E3" via="E2"/>
+    <trip id="vehicle_11" depart="117" from="-E5" to="E4" />
+    <trip id="vehicle_12" depart="124" from="-E6" to="-E3" via="E2"/>
+    <trip id="vehicle_13" depart="130" from="-E5" to="-E0" via="E2"/>
+    <trip id="vehicle_14" depart="150" from="-E6" to="-E0" via="E2"/>
+    <trip id="vehicle_15" depart="155" from="-E4" to="-E1" via="E2"/>
+    <trip id="vehicle_16" depart="161" from="E3" to="E5" via="-E2"/>
+    <trip id="vehicle_17" depart="173" from="-E6" to="-E3" via="E2"/>
+    <trip id="vehicle_18" depart="187" from="E0" to="E6" via="-E2"/>
+    <trip id="vehicle_19" depart="195" from="E0" to="-E3" />
+    <trip id="vehicle_20" depart="204" from="-E6" to="E5" />
+    <trip id="vehicle_21" depart="211" from="-E5" to="E4" />
+    <trip id="vehicle_22" depart="223" from="-E4" to="E6" />
+    <trip id="vehicle_23" depart="231" from="E3" to="-E1" />
+    <trip id="vehicle_24" depart="249" from="-E4" to="-E0" via="E2"/>
+    <trip id="vehicle_25" depart="252" from="E0" to="E6" via="-E2"/>
+    <trip id="vehicle_26" depart="260" from="-E4" to="E6" />
+    <trip id="vehicle_27" depart="271" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_28" depart="282" from="E0" to="E6" via="-E2"/>
+    <trip id="vehicle_29" depart="298" from="-E6" to="E5" />
+    <trip id="vehicle_30" depart="308" from="-E5" to="E4" />
+    <trip id="vehicle_31" depart="313" from="-E5" to="-E1" via="E2"/>
+    <trip id="vehicle_32" depart="329" from="-E4" to="E6" />
+    <trip id="vehicle_33" depart="337" from="E0" to="-E3" />
+    <trip id="vehicle_34" depart="345" from="-E6" to="-E0" via="E2"/>
+    <trip id="vehicle_35" depart="359" from="E1" to="-E3" />
+    <trip id="vehicle_36" depart="363" from="E3" to="E6" via="-E2"/>
+    <trip id="vehicle_37" depart="371" from="-E4" to="-E3" via="E2"/>
+    <trip id="vehicle_38" depart="382" from="-E4" to="E5" />
+    <trip id="vehicle_39" depart="390" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_40" depart="403" from="-E6" to="-E3" via="E2"/>
+    <trip id="vehicle_41" depart="419" from="E0" to="E4" via="-E2"/>
+    <trip id="vehicle_42" depart="421" from="E1" to="E4" via="-E2"/>
+    <trip id="vehicle_43" depart="436" from="-E4" to="-E3" via="E2"/>
+    <trip id="vehicle_44" depart="441" from="E0" to="E4" via="-E2"/>
+    <trip id="vehicle_45" depart="453" from="E1" to="E4" via="-E2"/>
+    <trip id="vehicle_46" depart="467" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_47" depart="480" from="-E6" to="-E3" via="E2"/>
+    <trip id="vehicle_48" depart="486" from="E3" to="E6" via="-E2"/>
+    <trip id="vehicle_49" depart="491" from="E0" to="E6" via="-E2"/>
+    <trip id="vehicle_50" depart="510" from="E3" to="-E1" />
+    <trip id="vehicle_51" depart="516" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_52" depart="528" from="E0" to="-E1" />
+    <trip id="vehicle_53" depart="539" from="-E5" to="-E0" via="E2"/>
+    <trip id="vehicle_54" depart="543" from="E3" to="-E1" />
+    <trip id="vehicle_55" depart="557" from="E3" to="E4" via="-E2"/>
+    <trip id="vehicle_56" depart="560" from="E0" to="E6" via="-E2"/>
+    <trip id="vehicle_57" depart="575" from="E0" to="-E3" />
+    <trip id="vehicle_58" depart="589" from="-E6" to="E4" />
+    <trip id="vehicle_59" depart="592" from="-E6" to="-E0" via="E2"/>
+    <trip id="vehicle_60" depart="610" from="-E5" to="E6" />
+    <trip id="vehicle_61" depart="618" from="-E6" to="E4" />
+    <trip id="vehicle_62" depart="625" from="-E6" to="E4" />
+    <trip id="vehicle_63" depart="634" from="-E6" to="-E3" via="E2"/>
+    <trip id="vehicle_64" depart="640" from="-E6" to="E5" />
+    <trip id="vehicle_65" depart="651" from="-E6" to="E5" />
+    <trip id="vehicle_66" depart="660" from="E1" to="-E0" />
+    <trip id="vehicle_67" depart="673" from="E3" to="-E1" />
+    <trip id="vehicle_68" depart="689" from="-E6" to="E4" />
+    <trip id="vehicle_69" depart="695" from="-E4" to="-E0" via="E2"/>
+    <trip id="vehicle_70" depart="706" from="-E6" to="E4" />
+    <trip id="vehicle_71" depart="711" from="E3" to="E4" via="-E2"/>
+    <trip id="vehicle_72" depart="725" from="E3" to="E5" via="-E2"/>
+    <trip id="vehicle_73" depart="733" from="-E4" to="E5" />
+    <trip id="vehicle_74" depart="750" from="E0" to="-E1" />
+    <trip id="vehicle_75" depart="756" from="-E6" to="E4" />
+    <trip id="vehicle_76" depart="760" from="-E5" to="-E3" via="E2"/>
+    <trip id="vehicle_77" depart="771" from="-E6" to="E5" />
+    <trip id="vehicle_78" depart="782" from="-E5" to="E4" />
+    <trip id="vehicle_79" depart="797" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_80" depart="807" from="E3" to="-E0" />
+    <trip id="vehicle_81" depart="817" from="-E5" to="-E1" via="E2"/>
+    <trip id="vehicle_82" depart="823" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_83" depart="830" from="-E6" to="E4" />
+    <trip id="vehicle_84" depart="846" from="E0" to="-E1" />
+    <trip id="vehicle_85" depart="853" from="E0" to="E4" via="-E2"/>
+    <trip id="vehicle_86" depart="870" from="E3" to="E4" via="-E2"/>
+    <trip id="vehicle_87" depart="871" from="-E4" to="-E0" via="E2"/>
+    <trip id="vehicle_88" depart="884" from="E1" to="E4" via="-E2"/>
+    <trip id="vehicle_89" depart="897" from="-E6" to="E4" />
+    <trip id="vehicle_90" depart="901" from="E3" to="E6" via="-E2"/>
+    <trip id="vehicle_91" depart="917" from="E3" to="E6" via="-E2"/>
+    <trip id="vehicle_92" depart="922" from="E0" to="-E3" />
+    <trip id="vehicle_93" depart="932" from="E0" to="-E1" />
+    <trip id="vehicle_94" depart="940" from="E3" to="E4" via="-E2"/>
+    <trip id="vehicle_95" depart="960" from="-E5" to="E4" />
+    <trip id="vehicle_96" depart="965" from="-E5" to="E6" />
+    <trip id="vehicle_97" depart="970" from="-E6" to="E5" />
+    <trip id="vehicle_98" depart="990" from="-E6" to="E4" />
+    <trip id="vehicle_99" depart="996" from="-E5" to="E4" />
+    <trip id="vehicle_100" depart="1002" from="-E5" to="-E0" via="E2"/>
+    <trip id="vehicle_101" depart="1019" from="E0" to="-E1" />
+    <trip id="vehicle_102" depart="1022" from="E3" to="E6" via="-E2"/>
+    <trip id="vehicle_103" depart="1035" from="E3" to="-E1" />
+    <trip id="vehicle_104" depart="1041" from="-E5" to="E6" />
+    <trip id="vehicle_105" depart="1050" from="E3" to="E6" via="-E2"/>
+    <trip id="vehicle_106" depart="1062" from="-E4" to="-E0" via="E2"/>
+    <trip id="vehicle_107" depart="1075" from="-E5" to="E4" />
+    <trip id="vehicle_108" depart="1082" from="E0" to="-E3" />
+    <trip id="vehicle_109" depart="1097" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_110" depart="1104" from="-E6" to="-E1" via="E2"/>
+    <trip id="vehicle_111" depart="1111" from="-E4" to="E5" />
+    <trip id="vehicle_112" depart="1125" from="-E4" to="E5" />
+    <trip id="vehicle_113" depart="1131" from="-E6" to="-E3" via="E2"/>
+    <trip id="vehicle_114" depart="1147" from="E3" to="-E1" />
+    <trip id="vehicle_115" depart="1155" from="-E6" to="-E0" via="E2"/>
+    <trip id="vehicle_116" depart="1161" from="-E4" to="E5" />
+    <trip id="vehicle_117" depart="1170" from="E3" to="-E1" />
+    <trip id="vehicle_118" depart="1190" from="E0" to="E6" via="-E2"/>
+    <trip id="vehicle_119" depart="1200" from="-E6" to="E4" />
+    <trip id="vehicle_120" depart="1201" from="E0" to="E6" via="-E2"/>
+    <trip id="vehicle_121" depart="1213" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_122" depart="1226" from="E1" to="E4" via="-E2"/>
+    <trip id="vehicle_123" depart="1236" from="-E4" to="E6" />
+    <trip id="vehicle_124" depart="1247" from="-E5" to="-E1" via="E2"/>
+    <trip id="vehicle_125" depart="1251" from="E1" to="-E3" />
+    <trip id="vehicle_126" depart="1264" from="-E5" to="-E1" via="E2"/>
+    <trip id="vehicle_127" depart="1273" from="E0" to="-E3" />
+    <trip id="vehicle_128" depart="1281" from="-E6" to="-E1" via="E2"/>
+    <trip id="vehicle_129" depart="1297" from="E1" to="E4" via="-E2"/>
+    <trip id="vehicle_130" depart="1307" from="E3" to="-E0" />
+    <trip id="vehicle_131" depart="1313" from="E3" to="E4" via="-E2"/>
+    <trip id="vehicle_132" depart="1329" from="E1" to="E4" via="-E2"/>
+    <trip id="vehicle_133" depart="1333" from="-E4" to="E5" />
+    <trip id="vehicle_134" depart="1345" from="E1" to="E4" via="-E2"/>
+    <trip id="vehicle_135" depart="1359" from="E1" to="-E0" />
+    <trip id="vehicle_136" depart="1369" from="-E6" to="E4" />
+    <trip id="vehicle_137" depart="1380" from="-E5" to="E4" />
+    <trip id="vehicle_138" depart="1387" from="-E4" to="E6" />
+    <trip id="vehicle_139" depart="1397" from="-E6" to="-E3" via="E2"/>
+    <trip id="vehicle_140" depart="1409" from="E0" to="E4" via="-E2"/>
+    <trip id="vehicle_141" depart="1415" from="E3" to="-E1" />
+    <trip id="vehicle_142" depart="1420" from="E3" to="E6" via="-E2"/>
+    <trip id="vehicle_143" depart="1439" from="-E5" to="-E0" via="E2"/>
+    <trip id="vehicle_144" depart="1449" from="-E6" to="E5" />
+    <trip id="vehicle_145" depart="1457" from="E0" to="E6" via="-E2"/>
+    <trip id="vehicle_146" depart="1468" from="E0" to="E6" via="-E2"/>
+    <trip id="vehicle_147" depart="1473" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_148" depart="1484" from="-E5" to="-E3" via="E2"/>
+    <trip id="vehicle_149" depart="1495" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_150" depart="1510" from="E3" to="-E1" />
+    <trip id="vehicle_151" depart="1518" from="-E5" to="E4" />
+    <trip id="vehicle_152" depart="1528" from="E0" to="E6" via="-E2"/>
+    <trip id="vehicle_153" depart="1540" from="-E5" to="-E1" via="E2"/>
+    <trip id="vehicle_154" depart="1543" from="-E5" to="E4" />
+    <trip id="vehicle_155" depart="1559" from="-E4" to="E6" />
+    <trip id="vehicle_156" depart="1566" from="E0" to="E4" via="-E2"/>
+    <trip id="vehicle_157" depart="1580" from="E0" to="E6" via="-E2"/>
+    <trip id="vehicle_158" depart="1584" from="E3" to="-E1" />
+    <trip id="vehicle_159" depart="1591" from="E3" to="-E0" />
+    <trip id="vehicle_160" depart="1604" from="-E4" to="E5" />
+    <trip id="vehicle_161" depart="1616" from="E0" to="E6" via="-E2"/>
+    <trip id="vehicle_162" depart="1630" from="E3" to="E5" via="-E2"/>
+    <trip id="vehicle_163" depart="1634" from="E0" to="-E1" />
+    <trip id="vehicle_164" depart="1640" from="-E4" to="E5" />
+    <trip id="vehicle_165" depart="1652" from="-E5" to="E6" />
+    <trip id="vehicle_166" depart="1661" from="-E4" to="-E3" via="E2"/>
+    <trip id="vehicle_167" depart="1676" from="-E5" to="-E3" via="E2"/>
+    <trip id="vehicle_168" depart="1686" from="E0" to="-E1" />
+    <trip id="vehicle_169" depart="1691" from="E1" to="-E0" />
+    <trip id="vehicle_170" depart="1700" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_171" depart="1720" from="E0" to="-E3" />
+    <trip id="vehicle_172" depart="1728" from="E1" to="-E3" />
+    <trip id="vehicle_173" depart="1736" from="E0" to="-E3" />
+    <trip id="vehicle_174" depart="1740" from="-E5" to="E6" />
+    <trip id="vehicle_175" depart="1760" from="-E6" to="E4" />
+    <trip id="vehicle_176" depart="1761" from="E1" to="-E0" />
+    <trip id="vehicle_177" depart="1776" from="-E6" to="E5" />
+    <trip id="vehicle_178" depart="1790" from="-E6" to="-E1" via="E2"/>
+    <trip id="vehicle_179" depart="1793" from="-E5" to="-E0" via="E2"/>
+    <trip id="vehicle_180" depart="1807" from="E1" to="-E3" />
+    <trip id="vehicle_181" depart="1817" from="-E6" to="E4" />
+    <trip id="vehicle_182" depart="1821" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_183" depart="1837" from="E0" to="-E1" />
+    <trip id="vehicle_184" depart="1848" from="E3" to="E5" via="-E2"/>
+    <trip id="vehicle_185" depart="1851" from="-E5" to="E4" />
+    <trip id="vehicle_186" depart="1864" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_187" depart="1876" from="E0" to="-E3" />
+    <trip id="vehicle_188" depart="1881" from="E0" to="-E3" />
+    <trip id="vehicle_189" depart="1891" from="E1" to="-E0" />
+    <trip id="vehicle_190" depart="1900" from="-E4" to="E5" />
+    <trip id="vehicle_191" depart="1920" from="E0" to="-E1" />
+    <trip id="vehicle_192" depart="1927" from="-E6" to="E5" />
+    <trip id="vehicle_193" depart="1934" from="-E4" to="-E3" via="E2"/>
+    <trip id="vehicle_194" depart="1941" from="-E4" to="-E3" via="E2"/>
+    <trip id="vehicle_195" depart="1950" from="E3" to="-E1" />
+    <trip id="vehicle_196" depart="1962" from="E3" to="E5" via="-E2"/>
+    <trip id="vehicle_197" depart="1975" from="E0" to="E5" via="-E2"/>
+    <trip id="vehicle_198" depart="1983" from="E3" to="E4" via="-E2"/>
+    <trip id="vehicle_199" depart="2000" from="E0" to="E4" via="-E2"/>
+</routes>
